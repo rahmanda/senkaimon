@@ -1,0 +1,17 @@
+.popup {
+  width: 150px;
+  
+  .actions {
+    padding: 10px;
+    display: block;
+  }
+  
+  .actions .btn {
+    display       : block;
+    margin-bottom : 5px; 
+  }
+
+  .actions .btn:last-child {
+    margin-bottom : 0; 
+  }
+}

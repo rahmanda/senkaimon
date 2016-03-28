@@ -1,0 +1,31 @@
+$base-btn-w  : 100%;
+
+$base-btn-bg : #b31b4d;
+$base-btn-c  : white;
+$base-btn-p  : 0.65em;
+
+$base-btn-f  : 'Helvetica', Arial, Sans-serif;
+$base-btn-f-s: 13px;
+
+$base-btn-b  : 1px solid #a91948;
+$base-btn-b-r: 3px;
+
+.btn {
+  width: $base-btn-w;
+  
+  border        : $base-btn-b;
+  border-radius : $base-btn-b-r; 
+
+  padding :  $base-btn-p;
+  
+  background-color : $base-btn-bg;
+  color            : $base-btn-c;
+
+  font-family : $base-btn-f;
+  font-size   : $base-btn-f-s;
+  font-weight : bold;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
