@@ -5,9 +5,7 @@ var cssnano     = require("gulp-cssnano");
 var rename      = require("gulp-rename");
 var source      = require("vinyl-source-stream");
 var browserify  = require("browserify");
-var dotenv      = require("dotenv").config();
 
-var SERVER    = process.env.SERVER;
 var SRC_PATH  = "src";
 var DIST_PATH = "dist";
 
