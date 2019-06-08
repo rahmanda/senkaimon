@@ -3,22 +3,20 @@
   "version": "0.1.0",
   "description": "Gate to other dimension",
   "main": "dist/popup.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://rahmandawibowo@bitbucket.org/rahmandawibowo/senkaimon.git"
   },
   "keywords": [
-    "senkaimon"
+    "senkaimon",
+    "chrome-extension",
+    "bukalapak"
   ],
   "author": "Rahmanda Wibowo",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://bitbucket.org/rahmandawibowo/senkaimon#readme",
   "devDependencies": {
     "browserify": "^13.0.0",
-    "chai": "^3.4.1",
     "gulp": "^3.8.8",
     "gulp-cssnano": "^2.1.0",
     "gulp-jade": "^1.1.0",
@@ -26,11 +24,10 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.1",
     "gulp-uglify": "^1.5.2",
-    "mocha": "^2.3.4",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "jquery": "^2.2.2",
+    "jquery": "^3.4.0",
     "query-string": "^4.0.2"
   }
 }
